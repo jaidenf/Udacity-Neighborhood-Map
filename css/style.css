@@ -1,0 +1,87 @@
+body {
+  font: 14px Helvetica, Arial, Sans-serif;
+  background: #ddeef6;
+  margin: 1%; 
+  padding: 0px
+}
+.place-list {
+  
+  display: inline-block;
+  width: 25%;
+  max-height: 60%;
+  float: right;
+  position: absolute;
+  top: 13%;
+  right: 4%;
+  z-index: 5;
+  overflow-y: auto;
+  background-color: white;
+   border: 2px solid grey;
+  opacity: 0.8;
+  list-style-type: none;
+  padding: 2%;
+  margin: auto;
+  font-weight: bolder;
+  border-radius: 25px;
+}
+#search {
+  background: #59b;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 2px 2px 5px rgba(88, 88, 88, 0.5);
+  -webkit-box-shadow: 2px 2px 5px rgba(88, 88, 88, 0.5);
+  margin-bottom: .5%;
+  padding: .5%;
+  text-align: center;
+}
+
+#search label {
+  color: #fff;
+  padding: .4px .5px;
+  font-size: 18px;
+  margin:0px;
+}
+
+#q {
+  background: #fff;
+  margin: 0;
+  padding: 8px 10px;
+  border: 1px solid #eee;
+  outline-width: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 30%;
+}
+
+#btn {
+  padding: 8px 10px;
+  border: 1px solid #eee;
+  outline-width: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  background: #fff;
+  cursor: pointer;
+}
+
+#map-wrapper {
+  padding: 1%;
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 2px 2px 5px rgba(88, 88, 88, 0.5);
+  -webkit-box-shadow: 2px 2px 5px rgba(88, 88, 88, 0.5);
+  height: 90%; 
+  width: 95%;
+  margin:0 auto;
+}
+
+#map_canvas { 
+  height: 100%;
+  width:100%; 
+}
